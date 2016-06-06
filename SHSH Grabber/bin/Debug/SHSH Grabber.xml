@@ -31,6 +31,10 @@ SHSHGrabber
 	<summary>
   Cerca una risorsa localizzata di tipo System.Byte[].
 </summary>
+</member><member name="P:SHSH_Grabber.My.Resources.Resources.PSx32">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Byte[].
+</summary>
 </member><member name="P:SHSH_Grabber.My.Resources.Resources.pzip">
 	<summary>
   Cerca una risorsa localizzata di tipo System.Byte[].

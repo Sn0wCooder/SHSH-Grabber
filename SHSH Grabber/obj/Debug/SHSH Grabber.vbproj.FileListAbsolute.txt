@@ -17,3 +17,22 @@ C:\Users\Leonardo\Desktop\SHSH Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.vbpro
 C:\Users\Leonardo\Desktop\SHSH Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.Send.resources
 C:\Users\Leonardo\Desktop\SHSH Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.ECIDGrabber.resources
 C:\Users\Leonardo\Desktop\SHSH Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.DownloadSHSHs.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\bin\Debug\SHSH Grabber.exe.config
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\Interop.Shell32.dll
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.vbproj.ResolveComReference.cache
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.exe
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.xml
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.pdb
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.vbprojResolveAssemblyReference.cache
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.DeviceInformation.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.DownloadSHSHs.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.ECIDGrabber.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.Form1.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.Resources.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.CreateDevice.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.Send.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH_Grabber.SIgnedIPSWs.resources
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\obj\Debug\SHSH Grabber.vbproj.GenerateResource.Cache
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\bin\Debug\SHSH Grabber.exe
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\bin\Debug\SHSH Grabber.pdb
+C:\Users\UTENTE\Desktop\SHSH-Grabber\SHSH Grabber\bin\Debug\SHSH Grabber.xml

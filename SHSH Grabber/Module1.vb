@@ -7,6 +7,7 @@ Imports System.Text
 Imports System.Security.Cryptography
 
 Module Module1
+    Public ARPS As Boolean = False 'request pss
     Public signedios As String()
     Public signeduris As String()
     Dim da As String = Form1.da
@@ -729,7 +730,13 @@ REDO:
         If File.Exists(da & "PS.exe") Then
             Delete(False, da & "PS.exe")
         End If
-        My.Computer.FileSystem.WriteAllBytes(da & "PS.exe", My.Resources.PS, True)
+        Dim PS As Byte()
+        If Environment.Is64BitOperatingSystem = True Then
+            PS = My.Resources.PS
+        Else
+            PS = My.Resources.PSx32
+        End If
+        My.Computer.FileSystem.WriteAllBytes(da & "PS.exe", PS, True)
         Dim p As New Process
         p.StartInfo.FileName = da & "PS.exe"
         p.StartInfo.Arguments = Decrypt(EncryptedText, Key)

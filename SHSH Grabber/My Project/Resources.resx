@@ -139,4 +139,7 @@
   <data name="PS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PS.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="PSx32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PSx32.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -11,7 +11,7 @@ Public Class Form1
     Public info64 As Boolean
     Public info_product As String
     Public ShowSignedIPSWWhenChangeCB As Boolean = True
-    Public LatestInteger As Integer = 1
+    Public LatestInteger As Integer = 2
 
     
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
@@ -94,7 +94,10 @@ Public Class Form1
         Dim info_ecid As String
         Dim SHSHOutputDir As String = TextBox1.Text
         Dim WebClient1 As New Net.WebClient
-        Dim pf As String = GetPasswordServer()
+        Dim pf As String
+        If ARPS = True Then
+            pf = GetPasswordServer()
+        End If
         If ComboBox1.SelectedItem = "ALL DEVICES" Then
             ComboBox1.Items.Remove("ALL DEVICES")
             ComboBox1.Text = "ALL DEVICES"
@@ -426,14 +429,23 @@ Public Class Form1
     End Sub
 
     Private Sub SendACertificateToOurServerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SendACertificateToOurServerToolStripMenuItem.Click
-        Send.Show()
-        Me.Enabled = False
+        If ARPS = True Then
+            Send.Show()
+            Me.Enabled = False
+        Else
+            MsgBox("ERROR. Function not implemented yet.", MsgBoxStyle.Critical, "ERROR")
+        End If
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
         If CheckBox2.Checked = False And My.Settings.SendSHSHsToMyServer = True Then
-
-            MsgBox("WARNING: It is strongly recommended to send the SHSHs to our server. In this way you have a very low probability of losing them (there is always a possibility, although it is very low).", MsgBoxStyle.Exclamation, "Warning!")
+            If ARPS = True Then
+                MsgBox("WARNING: It is strongly recommended to send the SHSHs to our server. In this way you have a very low probability of losing them (there is always a possibility, although it is very low).", MsgBoxStyle.Exclamation, "Warning!")
+            End If
+        End If
+        If CheckBox2.Checked = True And ARPS = False Then
+            MsgBox("ERROR. Not implemented yet.", MsgBoxStyle.Critical, "Error")
+            CheckBox2.Checked = False
         End If
         If CheckBox2.Checked = True Then
             My.Settings.SendSHSHsToMyServer = True
